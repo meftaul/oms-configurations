@@ -11,9 +11,9 @@ kafka:
   bootstrap-servers: localhost:9092
   invetory-topic: inventory-topic
   order-topic: order-topic
-
-spring:
-  kafka:
-    consumer:
-      properties:
-        spring.json.trusted.packages: "*"
+# spring:
+#   kafka:
+#     consumer:
+#       value-deserializer: org.apache.kafka.common.serialization.JsonDeserializer
+#       properties:
+#         spring.json.trusted.packages: "*"

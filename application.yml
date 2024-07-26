@@ -9,8 +9,8 @@ springdoc:
 
 kafka:
   bootstrap-servers: localhost:9092
-  invetory-topic: inventory-topic
-  order-topic: order-topic
+  order-created-topic: order-created
+  order-processed-topic: order-topic
 # spring:
 #   kafka:
 #     consumer:

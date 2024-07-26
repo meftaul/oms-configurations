@@ -1,2 +1,4 @@
 server:
+  servlet:
+    context-path: /inventory-service
   port: 8081
